@@ -1,0 +1,55 @@
+.container {
+    position: relative;
+    .backgroundPicture {
+        position: absolute;
+        background-image: url(../IMG/bg_home.svg);
+        background-repeat: no-repeat;
+        top: -25px;
+        right: 0px;
+        width: 100vh;
+        height: 100vh;
+        z-index: -1;
+    }
+    .ball01 {
+        position: absolute;
+        background-image: url(../IMG/ball01.svg);
+        background-repeat: no-repeat;
+        top:400px;
+        left: -230px;
+        width: 50vh;
+        height: 50vh;
+        z-index: -999;
+        //outline: 1px solid black;
+    }
+    .ball02 {
+        position: absolute;
+        background-image: url(../IMG/ball02.svg);
+        background-repeat: no-repeat;
+        top: 1450px;
+        right: -200px;
+        width: 50vh;
+        height: 50vh;
+        z-index: -999;
+        //outline: 1px solid black;  
+    }
+}
+@media (max-width:600px) {
+    .container {
+        .backgroundPicture {
+            margin-top: 300px;
+            background-image: url(../IMG/bg_home_sm.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100vh;
+            height: 100vh;
+            z-index: -1;
+        }
+        .ball01 {
+            display: none;
+        }
+        .ball02 {
+            display: none;
+
+        }
+    }
+}

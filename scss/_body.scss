@@ -1,0 +1,280 @@
+.platformLink {
+    text-align: center;
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #221E1F;
+        margin-bottom: 48px;
+    }
+    .socialMedia {
+        display: flex;    
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .socialMediaCard {
+            width: 33.33%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 90px;
+            }
+            h3 {
+                font-size: 24px;
+                font-weight: bold;
+                color: #221E1F;
+                margin: 24px 0px;
+            }
+            p {
+                font-size: 16px;
+                color: #747474;
+            }
+        }
+    }
+}
+@media (max-width:600px) {
+    .platformLink {
+        h2 {
+            margin: 60px 0px 20px 0px;
+            font-size: 28px;
+        }
+        .socialMedia .socialMediaCard {
+            width: 100%;
+            padding: 12px 0px;
+        }    
+    }
+} 
+
+.mainService {
+    text-align: center;
+    margin-top: 100px;
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #221E1F;
+    }
+    p {
+        font-size: 20px;
+        color: #221E1F;
+        margin: 16px 0px 48px 0px;
+    }
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: -8px;
+        margin-left: -8px;
+        .serviceCard {
+            width: 23.5%;
+            border-radius: 12px;
+            box-shadow: 0px 2px 10px #00000014;
+            img {
+                border-radius: 12px 12px 0px 0px;
+            }
+            h4 {
+                font-size: 16px;
+                color: #56C4C5;
+                padding: 16px 0px 8px 0px;
+            }
+            p {
+                font-size: 16px;
+                color: #221E1F;
+                padding: 8px 16px 0px 16px;
+
+            }
+        }
+    }
+}
+@media (max-width:600px) {
+    .mainService {
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .service .serviceCard {
+            width: 100vh;
+            padding: 12px 0px;
+        }
+    }
+}        
+
+.mainService2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+    .descriptionFig {
+        width: 60%;
+        .descriptionCard {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: 40%;
+                box-shadow: 0px 2px 10px #00000014;
+                border-radius: 12px;
+                padding: 48px 32px;
+                margin: 0px 48px 28px 0px;
+                //圖片被切//
+                img {
+                    padding: 17px;
+                    border-radius: 50%;
+                    box-shadow: 0px 2px 10px #00000014;
+                }
+                h5 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 40px 0px 16px 0px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .descriptionWord {
+        width: 40%;
+        h2{
+            color: #221E1F;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            color: #221E1F;
+            margin: 16px 0px 24px 0px;  
+        }
+        a {
+            display: inline-block;
+            color: white;
+            background: #56C4C5 0% 0% no-repeat padding-box;
+            border: 1px solid #56C4C5;
+            border-radius: 27px;
+            padding: 12px 32px;
+        }
+        
+    }
+}
+@media (max-width:600px) {
+    .mainService2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 60px 0px 100px 0px;
+        .descriptionFig .descriptionCard li {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 24px;
+        }
+        .descriptionWord {
+            width: 100%;
+            text-align: center;
+            h2 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+                margin: 16px 0px 8px 0px;
+            }
+            a {
+                margin: 8px 0px;
+            }        
+        }
+    }
+}
+
+.comment {
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: #221E1F;
+        margin-bottom: 104px;
+    }
+    .commentCard {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: -8px;
+        margin-right: -8px;
+        position: relative;
+        li {
+            width: 32.5%;
+            box-shadow: 0px 2px 10px #00000014;
+            border-radius: 12px;
+            padding: 48px 32px 24px 32px;
+            img {
+                position: absolute;
+                top: -50px;
+                display: inline-block;
+                width: 80px;
+                border-radius: 50%; 
+                box-shadow: 0px 2px 10px #00000014;
+            }
+            p {
+                font-size: 16px;
+                color: #221E1F;
+                text-align: justify;
+                margin-bottom: 24px;
+            }
+            hr {
+                border: 0;
+                height: 1px;
+                background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+                }
+            h4 {
+                font-size: 16px;
+                font-weight: bold;
+                color: #221E1F;
+                margin: 24px 0px 8px 0px;
+            }
+            .score {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                .fiveStar img {
+                    position: relative;
+                    width: 16px;
+                    border-radius: 0%;
+                    box-shadow: none;
+                    top: 0px;
+                }
+            }
+        }      
+    }
+}
+@media (max-width:600px) {
+    .comment{
+        h2 {
+            font-size: 28px;
+            margin-bottom: 88px;
+        }
+        .commentCard li {
+            width: 100%;
+            padding: 48px 16px 16px 16px;
+            p {
+                font-size: 16px;
+                margin-bottom: 16px;
+            }
+            h4 {
+                font-size: 16px;
+                margin: 16px 0px 8px 0px;
+            }
+        }
+    }
+}
+
+.pagination {
+    margin-top: 24px;
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            padding: 5px;
+            margin: 0px 4px;
+            background: #DDDDDD;
+            border-radius: 50%;
+        }
+    }
+}
+
