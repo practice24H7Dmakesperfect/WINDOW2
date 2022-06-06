@@ -79,7 +79,6 @@
                 font-size: 16px;
                 color: #221E1F;
                 padding: 8px 16px 0px 16px;
-
             }
         }
     }
@@ -91,10 +90,11 @@
         }
         p {
             font-size: 16px;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
         }
         .service .serviceCard {
-            width: 100vh;
+            margin: 0 auto;
+            width: 80%;
             padding: 12px 0px;
         }
     }

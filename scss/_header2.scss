@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 218px;
+        margin: 24px 0px;
+    }
+    .button {
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #FF5D50;
+        border-radius: 22px;
+        padding: 8px 32px;
+        margin: 24px 0px; 
+    }
+}
+@media (max-width: 600px) {
+    .header {
+        border-bottom: 3px solid #FFD153;
+        padding-bottom: 8px;
+        img {
+            width: 60%;
+        }
+        .button {
+            width: 25%;
+            font-size: 10px;
+            text-align: center;
+            padding: 4px 6px;  
+        }
+    }
+}
+
+.container {
+    position: relative;
+    .backgroundPicture2 {
+        position: absolute;
+        background-image: url(../IMG/banner.svg);
+        background-repeat: no-repeat;
+        width: 100vh;
+        height: 100vh;
+        top: -30px;
+        right: 0;
+        z-index: -1;
+        //outline: 1px solid black;
+    }
+    .ball03 {
+        position: absolute;
+        background-image: url(../IMG/ball03.svg);
+        background-repeat: no-repeat;
+        background-size: 361px;
+        width:100vh;
+        height: 100vh;
+        top: 740px;
+        left: -250px;
+        z-index: -999; //無效?
+    }
+}
+@media (max-width:600px) {
+    .container {
+        .backgroundPicture2 {
+            background-image: url(../IMG/banner_sm.svg);
+            background-size: 600px;
+            width: 100vh;
+            height: 200vh;
+            top: 96px;
+            left: 0;
+        }
+        .ball03 {
+            position: absolute;
+            background-size: 300px;
+            top: 1200px;
+            left: -180px;
+        }    
+    }
+}
+
+.goTop {
+    position: relative;
+    //outline: 1px solid black;
+    a {
+        position: fixed;
+        z-index: 99;
+        right: 30px;
+        bottom: 100px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 26px 24px;
+        border-radius: 50%;
+        background-color: #56C4C5;
+    }
+}  
+@media (max-width:600px) {
+    .goTop {
+        a {
+            font-size: 14px;
+            padding: 18px 16px;
+        }
+    }
+}
+
+.topic {
+    margin-top: 92px;
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+

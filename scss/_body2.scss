@@ -1,0 +1,205 @@
+.service {
+    margin-top: 200px;
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .amountPeople {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+        overflow-x: auto;
+        a {
+            display: block;
+            color: #56C4C5;
+            font-size: 18px;
+            border: 1px solid #56C4C5;
+            border-radius: 27px;
+            padding: 12px 32px;
+            margin: 8px;
+            &:hover {
+                color: white;
+                background-color: #56C4C5;
+            }
+        }
+    }
+    .scheme {
+        max-width: 1088px;
+        margin-top: 64px;
+        margin-left: -10.5px;
+        margin-right: -10.5px;
+        display: flex;
+        .schemeSelection {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 50%;          
+            border: 1px xolid black;
+            box-shadow: 0px 2px 10px #00000014;
+            border-radius: 12px;
+            margin: 0px 10.5px;
+            h3 {
+                font-size: 24px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 10px;
+            }
+            hr {
+                width: 100%;
+                margin: 18px 0px 24px 0px;
+                color: #747474;
+            }
+            p {
+                text-align: center;
+            }
+            .schemeSelectionResult { 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 32px;
+                padding: 0px 24px;
+                .schemeSelectionInput {
+                    background: #F5F5F5;
+                    border-radius: 12px;
+                    padding: 24px 32px;
+                    h6 {
+                        font-size: 12px;
+                        white-space: nowrap;
+                        text-align: center;
+                    }
+                    h1 {
+                        font-size: 32px;
+                        color: #56C4C5;
+                        white-space: nowrap;
+                        sup {
+                            font-size: 12px; 
+                        }
+                    }
+                }
+                .equal p {
+                    font-size: 29px;
+                    margin: 15px;
+                }
+                .schemeSelectionOutput {
+                    background: #F5F5F5;
+                    border-radius: 12px;
+                    padding: 24px 32px;
+                    h6 {
+                        font-size: 12px;
+                        white-space: nowrap;
+                    }
+                    h1 {
+                        font-size: 32px;
+                        sup {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .function {
+                margin-top: 32px;
+                padding: 0px 24px;
+                li {
+                    display: flex;
+                    margin-bottom: 16px;
+                    img {
+                        margin-right: 12px;
+                    }
+                }
+            }
+            a {
+                text-align: center;
+                margin: 16px 150px 32px 150px;
+                color: white;
+                font-size: 18px;
+                background-color: #56C4C5;
+                border-radius: 27px;
+                padding: 12px 0px;
+            }
+        }
+    }    
+} 
+
+@media (max-width:600px) {
+    .service {
+        margin-top: 560px;
+        h2 {
+            font-size: 28px;
+        }
+        .amountPeople {
+            a {
+                padding: 8px 16px; 
+                white-space: nowrap;   
+            }
+        }
+        .scheme {
+            flex-wrap: wrap;
+            .schemeSelection {
+                width: 100%;
+                .schemeSelectionResult {
+                    margin-top: 24px;
+                }
+                a {
+                    margin: 16px 200px 32px 200px;
+                }
+            }
+        }    
+    }
+}
+
+.commonQuestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .problemSolved {
+        width: 80%;
+        li {
+            display:flex;
+            justify-content: space-between;
+            //align-items: center;
+            box-shadow: 0px 2px 10px #00000014;
+            border-radius: 12px;
+            padding: 16px 32px;
+            margin: 8px 0px;
+            .h3-1 {
+                font-size: 18px;
+            }
+            img {
+                width: 20px;
+            }
+        }
+        .expand {
+            display: flex;
+            flex-direction: column;
+            .expandQuestion {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .h3-2 {
+                    color: #56C4C5;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+            .expandContent {
+                margin-top: 24px;
+                p {
+                    color: #747474;
+                }
+            }
+        }   
+    }
+}
+@media (max-width:600px) {
+    .commonQuestion .problemSolved {
+        width: 100%;
+    }
+}
