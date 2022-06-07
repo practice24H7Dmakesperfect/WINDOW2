@@ -523,6 +523,7 @@ sub {
   border-radius: 12px;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
+  background: #fff;
 }
 
 .mainService .service .serviceCard img {
@@ -750,17 +751,20 @@ sub {
     font-size: 28px;
     margin-bottom: 88px;
   }
-  .comment .commentCard li {
+  .comment .commentCard .user1 {
     width: 100%;
     padding: 48px 16px 16px 16px;
   }
-  .comment .commentCard li p {
+  .comment .commentCard .user1 p {
     font-size: 16px;
     margin-bottom: 16px;
   }
-  .comment .commentCard li h4 {
+  .comment .commentCard .user1 h4 {
     font-size: 16px;
     margin: 16px 0px 8px 0px;
+  }
+  .comment .commentCard .user2 .user3 {
+    display: none;
   }
 }
 
@@ -1067,18 +1071,21 @@ sub {
 }
 
 .footer {
-  width: 100%;
+  background-image: url(../IMG/home_footer.svg);
+  background-position: no-repeat;
   margin-top: 134px;
-  text-align: center;
-}
-
-.footer .footerBackground {
-  position: absolute;
-  background-image: url(../IMG/.svg);
-  background-repeat: no-repeat;
-  width: 100vw;
-  left: 0;
-  bottom: 48px;
+  height: 503px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
 }
 
 .footer h2 {
@@ -1158,8 +1165,8 @@ sub {
   background-repeat: no-repeat;
   top: -25px;
   right: 0px;
-  width: 100vw;
-  height: 100vh;
+  width: 960px;
+  height: 120vh;
   z-index: -1;
 }
 
@@ -1167,10 +1174,10 @@ sub {
   position: absolute;
   background-image: url(../IMG/ball01.svg);
   background-repeat: no-repeat;
-  top: 1000px;
+  top: 640px;
   left: -230px;
-  width: 50vw;
-  height: 50vh;
+  width: 360px;
+  height: 360px;
   z-index: -1;
 }
 
@@ -1178,11 +1185,12 @@ sub {
   position: absolute;
   background-image: url(../IMG/ball02.svg);
   background-repeat: no-repeat;
-  top: 1450px;
-  right: -200px;
-  width: 50vw;
-  height: 50vh;
+  top: 1650px;
+  right: -160px;
+  width: 360px;
+  height: 360px;
   z-index: -1;
+  outline: 1px solid black;
 }
 
 @media (max-width: 600px) {
@@ -1208,10 +1216,10 @@ sub {
     position: absolute;
     background-image: url(../IMG/ball02.svg);
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    width: 315px;
+    height: 315px;
     top: 4750px;
-    left: 500px;
+    right: 500px;
   }
 }
 /*# sourceMappingURL=all.css.map */

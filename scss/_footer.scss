@@ -1,15 +1,12 @@
 .footer {
-    width: 100%;
+    background-image: url(../IMG/home_footer.svg);
+    background-position: no-repeat;
     margin-top: 134px;
-    text-align: center;
-    .footerBackground {
-        position: absolute;
-        background-image: url(../IMG/.svg);
-        background-repeat: no-repeat;
-        width: 100vw;
-        left: 0;
-        bottom: 48px;
-    }
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
     h2 {
         font-size: 32px;
         font-weight: bold;   
@@ -20,11 +17,8 @@
         border-radius: 27px;
         padding: 12px 32px;
         margin: 48px 0px 100px 0px;
-        }
+    }
 }
-
-    
-
 .footer2 {
     text-align: center;
     background: #F5F5F5;

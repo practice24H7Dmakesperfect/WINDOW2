@@ -67,6 +67,7 @@
             width: 23.5%;
             border-radius: 12px;
             box-shadow: 0px 2px 10px #00000014;
+            background:#fff;
             img {
                 border-radius: 12px 12px 0px 0px;
             }
@@ -116,7 +117,6 @@
                 border-radius: 12px;
                 padding: 48px 32px;
                 margin: 0px 48px 28px 0px;
-                //圖片被切//
                 img {
                     padding: 17px;
                     border-radius: 50%;
@@ -249,16 +249,21 @@
             font-size: 28px;
             margin-bottom: 88px;
         }
-        .commentCard li {
-            width: 100%;
-            padding: 48px 16px 16px 16px;
-            p {
-                font-size: 16px;
-                margin-bottom: 16px;
+        .commentCard {
+            .user1 {
+                width: 100%;
+                padding: 48px 16px 16px 16px;
+                p {
+                    font-size: 16px;
+                    margin-bottom: 16px;
+                }
+                h4 {
+                    font-size: 16px;
+                    margin: 16px 0px 8px 0px;
+                }
             }
-            h4 {
-                font-size: 16px;
-                margin: 16px 0px 8px 0px;
+            .user2 .user3 {
+                display: none;
             }
         }
     }
