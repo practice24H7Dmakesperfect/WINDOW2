@@ -24,12 +24,12 @@
         position: absolute;
         background-image: url(../IMG/ball02.svg);
         background-repeat: no-repeat;
-        top: 1650px;
+        top: 1550px;
         right: -160px;
         width: 360px;
         height: 360px;
         z-index: -1;
-        outline: 1px solid black;  
+        //outline: 1px solid black;  
     }
 }
 @media (max-width:600px) {

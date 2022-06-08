@@ -43,7 +43,6 @@
         }    
     }
 } 
-
 .mainService {
     text-align: center;
     margin-top: 100px;
@@ -117,10 +116,15 @@
                 border-radius: 12px;
                 padding: 48px 32px;
                 margin: 0px 48px 28px 0px;
-                img {
-                    padding: 17px;
-                    border-radius: 50%;
-                    box-shadow: 0px 2px 10px #00000014;
+                .icon {
+                    width: 86px;
+                    height: 86px;
+                    border-radius:50%;
+                    img {
+                        padding: 15px;
+                        border-radius: 50%;
+                        box-shadow: 0px 2px 10px #00000014;
+                    }
                 }
                 h5 {
                     font-size: 18px;
@@ -203,14 +207,14 @@
             box-shadow: 0px 2px 10px #00000014;
             border-radius: 12px;
             padding: 48px 32px 24px 32px;
-            img {
-                position: absolute;
-                top: -50px;
-                display: inline-block;
-                width: 80px;
-                border-radius: 50%; 
-                box-shadow: 0px 2px 10px #00000014;
-            }
+        img {
+            position: absolute;
+            top: -50px;
+            display: inline-block;
+            width: 80px;
+            border-radius: 50%; 
+            box-shadow: 0px 2px 10px #00000014;
+        }
             p {
                 font-size: 16px;
                 color: #221E1F;
@@ -262,7 +266,7 @@
                     margin: 16px 0px 8px 0px;
                 }
             }
-            .user2 .user3 {
+            .user2, .user3 {
                 display: none;
             }
         }

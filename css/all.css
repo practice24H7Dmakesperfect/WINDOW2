@@ -590,8 +590,14 @@ sub {
   margin: 0px 48px 28px 0px;
 }
 
-.mainService2 .descriptionFig .descriptionCard li img {
-  padding: 17px;
+.mainService2 .descriptionFig .descriptionCard li .icon {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+}
+
+.mainService2 .descriptionFig .descriptionCard li .icon img {
+  padding: 15px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
@@ -763,7 +769,7 @@ sub {
     font-size: 16px;
     margin: 16px 0px 8px 0px;
   }
-  .comment .commentCard .user2 .user3 {
+  .comment .commentCard .user2, .comment .commentCard .user3 {
     display: none;
   }
 }
@@ -788,17 +794,17 @@ sub {
   border-radius: 50%;
 }
 
-.service {
+.service2 {
   margin-top: 200px;
 }
 
-.service h2 {
+.service2 h2 {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
 
-.service .amountPeople {
+.service2 .amountPeople {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -809,7 +815,7 @@ sub {
   overflow-x: auto;
 }
 
-.service .amountPeople a {
+.service2 .amountPeople a {
   display: block;
   color: #56C4C5;
   font-size: 18px;
@@ -819,12 +825,12 @@ sub {
   margin: 8px;
 }
 
-.service .amountPeople a:hover {
+.service2 .amountPeople a:hover {
   color: white;
   background-color: #56C4C5;
 }
 
-.service .scheme {
+.service2 .scheme {
   max-width: 1088px;
   margin-top: 64px;
   margin-left: -10.5px;
@@ -834,7 +840,7 @@ sub {
   display: flex;
 }
 
-.service .scheme .schemeSelection {
+.service2 .scheme .schemeSelection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -852,24 +858,24 @@ sub {
   margin: 0px 10.5px;
 }
 
-.service .scheme .schemeSelection h3 {
+.service2 .scheme .schemeSelection h3 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
 }
 
-.service .scheme .schemeSelection hr {
+.service2 .scheme .schemeSelection hr {
   width: 100%;
   margin: 18px 0px 24px 0px;
   color: #747474;
 }
 
-.service .scheme .schemeSelection p {
+.service2 .scheme .schemeSelection p {
   text-align: center;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult {
+.service2 .scheme .schemeSelection .schemeSelectionResult {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -883,69 +889,70 @@ sub {
   padding: 0px 24px;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput {
   background: #F5F5F5;
   border-radius: 12px;
   padding: 24px 32px;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput h6 {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput h6 {
   font-size: 12px;
   white-space: nowrap;
   text-align: center;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput h1 {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput h1 {
   font-size: 32px;
   color: #56C4C5;
   white-space: nowrap;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput h1 sup {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionInput h1 sup {
   font-size: 12px;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .equal p {
+.service2 .scheme .schemeSelection .schemeSelectionResult .equal p {
   font-size: 29px;
   margin: 15px;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput {
   background: #F5F5F5;
   border-radius: 12px;
   padding: 24px 32px;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput h6 {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput h6 {
   font-size: 12px;
   white-space: nowrap;
+  text-align: center;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput h1 {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput h1 {
   font-size: 32px;
 }
 
-.service .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput h1 sup {
+.service2 .scheme .schemeSelection .schemeSelectionResult .schemeSelectionOutput h1 sup {
   font-size: 12px;
 }
 
-.service .scheme .schemeSelection .function {
+.service2 .scheme .schemeSelection .function {
   margin-top: 32px;
   padding: 0px 24px;
 }
 
-.service .scheme .schemeSelection .function li {
+.service2 .scheme .schemeSelection .function li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 16px;
 }
 
-.service .scheme .schemeSelection .function li img {
+.service2 .scheme .schemeSelection .function li img {
   margin-right: 12px;
 }
 
-.service .scheme .schemeSelection a {
+.service2 .scheme .schemeSelection a {
   text-align: center;
   margin: 16px 150px 32px 150px;
   color: white;
@@ -956,27 +963,27 @@ sub {
 }
 
 @media (max-width: 600px) {
-  .service {
+  .service2 {
     margin-top: 560px;
   }
-  .service h2 {
+  .service2 h2 {
     font-size: 28px;
   }
-  .service .amountPeople a {
+  .service2 .amountPeople a {
     padding: 8px 16px;
     white-space: nowrap;
   }
-  .service .scheme {
+  .service2 .scheme {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .service .scheme .schemeSelection {
+  .service2 .scheme .schemeSelection {
     width: 100%;
   }
-  .service .scheme .schemeSelection .schemeSelectionResult {
+  .service2 .scheme .schemeSelection .schemeSelectionResult {
     margin-top: 24px;
   }
-  .service .scheme .schemeSelection a {
+  .service2 .scheme .schemeSelection a {
     margin: 16px 200px 32px 200px;
   }
 }
@@ -1071,9 +1078,11 @@ sub {
 }
 
 .footer {
-  background-image: url(../IMG/home_footer.svg);
-  background-position: no-repeat;
   margin-top: 134px;
+  background-image: url(../IMG/home_footer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
   height: 503px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1082,10 +1091,9 @@ sub {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer h2 {
@@ -1108,7 +1116,8 @@ sub {
 }
 
 @media (max-width: 600px) {
-  .footer .footerContainer .footerBackground {
+  .footer {
+    margin-top: 60px;
     position: absolute;
     background-image: url(../IMG/footer_sm.svg);
     background-repeat: no-repeat;
@@ -1149,7 +1158,7 @@ sub {
   }
 }
 
-.footer {
+.footer3 {
   text-align: center;
   background: #F5F5F5;
   padding: 16px 0px;
@@ -1185,12 +1194,11 @@ sub {
   position: absolute;
   background-image: url(../IMG/ball02.svg);
   background-repeat: no-repeat;
-  top: 1650px;
+  top: 1550px;
   right: -160px;
   width: 360px;
   height: 360px;
   z-index: -1;
-  outline: 1px solid black;
 }
 
 @media (max-width: 600px) {

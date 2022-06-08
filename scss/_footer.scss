@@ -1,12 +1,13 @@
 .footer {
-    background-image: url(../IMG/home_footer.svg);
-    background-position: no-repeat;
     margin-top: 134px;
+    background-image: url(../IMG/home_footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
     height: 503px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    z-index: 1;
+    align-items: center;
     h2 {
         font-size: 32px;
         font-weight: bold;   
@@ -24,18 +25,15 @@
     background: #F5F5F5;
     padding: 16px 0px;
 }   
-
 @media (max-width:600px) {
     .footer {
-        //margin-top: 60px;
-        .footerContainer .footerBackground {
-            position: absolute;
-            background-image: url(../IMG/footer_sm.svg);
-            background-repeat:no-repeat;
-            width: 100vw;
-            bottom: 0;
-            left: 0;
-        }
+        margin-top: 60px;
+        position: absolute;
+        background-image: url(../IMG/footer_sm.svg);
+        background-repeat:no-repeat;
+        width: 100vw;
+        bottom: 0;
+        left: 0;
         h2 {
             font-size: 24px;
             margin-top: 293px;
