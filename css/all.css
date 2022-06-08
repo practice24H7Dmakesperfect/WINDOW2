@@ -1147,10 +1147,6 @@ sub {
   }
 }
 
-.goTop {
-  position: relative;
-}
-
 .goTop a {
   position: fixed;
   z-index: 99;
