@@ -3,7 +3,7 @@
     background-image: url(../IMG/home_footer.svg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 503px;
     display: flex;
     flex-direction: column;
@@ -15,10 +15,11 @@
         margin-top: 320px;  
     }
     a {
-        display: block;
+        //display: block;
         color: white;
         background: #56C4C5;
         border-radius: 27px;
+        text-align: center;
         padding: 12px 32px;
         margin: 48px 300px 100px 300px;
     }
@@ -27,6 +28,7 @@
     text-align: center;
     background: #F5F5F5;
     padding: 16px 0px;
+    width: 100vw;
 }   
 @media (max-width:600px) {
     .footer {
@@ -47,6 +49,9 @@
         a {
             margin: 24px 0px 60px 0px;
         }
+    }
+    .footer2 {
+        width: 100%;
     }
 }
 

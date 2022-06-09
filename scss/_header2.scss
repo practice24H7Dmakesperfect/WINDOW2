@@ -75,30 +75,7 @@
     }
 }
 
-.goTop {
-    position: relative;
-    //outline: 1px solid black;
-    a {
-        position: fixed;
-        z-index: 99;
-        right: 30px;
-        bottom: 100px;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 26px 24px;
-        border-radius: 50%;
-        background-color: #56C4C5;
-    }
-}  
-@media (max-width:600px) {
-    .goTop {
-        a {
-            font-size: 14px;
-            padding: 18px 16px;
-        }
-    }
-}
+
 
 .topic {
     margin-top: 92px;
