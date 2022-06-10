@@ -3,7 +3,7 @@
     background-image: url(../IMG/home_footer.svg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 503px;
     display: flex;
     flex-direction: column;
@@ -21,33 +21,31 @@
         border-radius: 27px;
         text-align: center;
         padding: 12px 32px;
-        margin: 48px 300px 100px 300px;
+        margin: 48px 460px 0px 460px;
     }
 }
 .footer2 {
     text-align: center;
     background: #F5F5F5;
     padding: 16px 0px;
-    width: 100vw;
+    width: 100%;
 }   
 @media (max-width:600px) {
     .footer {
         margin-top: 60px;
-        position: absolute;
         background-image: url(../IMG/footer_sm.svg);
         background-repeat: no-repeat;
-        background-position: center;
+        background-size: 600px;
         width: 100%;
-        height: 460px;
         display: flex;
         flex-direction: column;
         align-items: center;
         h2 {
             font-size: 24px;
-            margin-top: 293px;
+            margin-top: 200px;
         }
         a {
-            margin: 24px 0px 60px 0px;
+            margin: 120px 0px 0px 0px;
         }
     }
     .footer2 {
